@@ -19,3 +19,8 @@
 ## [Sprint 1] - Ejercicio 05
 - Generación de archivos JPG para análisis visual.
 - Exportación de gráficos a urban_flow/data/interim/plots/.
+
+## [Sprint 1] - Ejercicio 06
+- Análisis de representatividad de datos normalizados.
+- El porcentaje de infracciones en la fecha 1932-01-01 es 77.29%
+- El porcentaje de infracciones a la hora 00:00 es 40.16%
