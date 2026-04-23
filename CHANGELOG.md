@@ -15,3 +15,7 @@
 ## [Sprint 1] - Ejercicio 04
 - Implementación de la clase FineAnalyzer para análisis estadístico.
 - Métodos de ranking de patentes, horarios y cálculo de promedios.
+
+## [Sprint 1] - Ejercicio 05
+- Generación de archivos JPG para análisis visual.
+- Exportación de gráficos a urban_flow/data/interim/plots/.
