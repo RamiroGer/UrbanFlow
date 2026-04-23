@@ -24,3 +24,7 @@
 - Análisis de representatividad de datos normalizados.
 - El porcentaje de infracciones en la fecha 1932-01-01 es 77.29%
 - El porcentaje de infracciones a la hora 00:00 es 40.16%
+
+## [Sprint 1] - Ejercicio 07
+- Redacción de conclusiones finales sobre la integridad del dataset.
+- Análisis de la viabilidad del proyecto basado en la calidad de los datos.
