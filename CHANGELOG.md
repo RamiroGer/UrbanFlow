@@ -11,3 +11,7 @@
 - Normalización de fechas, horas, ubicaciones y patentes.
 - Limpieza de nulos, outliers y cálculo de excesos de velocidad.
 - Guardado de datos en etapa interim.
+
+## [Sprint 1] - Ejercicio 04
+- Implementación de la clase FineAnalyzer para análisis estadístico.
+- Métodos de ranking de patentes, horarios y cálculo de promedios.
