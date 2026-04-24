@@ -28,3 +28,7 @@
 ## [Sprint 1] - Ejercicio 07
 - Redacción de conclusiones finales sobre la integridad del dataset.
 - Análisis de la viabilidad del proyecto basado en la calidad de los datos.
+
+## [Sprint 1] - Ejercicio 02
+- Descarga de speeding_fines.csv y almacenamiento en raw.
+- Diagnóstico inicial de tipos de datos y valores nulos.
