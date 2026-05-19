@@ -40,3 +40,8 @@
 - Clasificación en grupos 'plates' y 'completes'.
 - group_images.json generado y almacenado.
 - Función de visualización aleatoria implementada.
+
+## [Sprint 2] - Ejercicio 01
+- Configuración rama Sprint_2 desde Sprint_1.
+- Estructura de directorios para Sprint 2 creada.
+- Dataset de imágenes descargado y descomprimido.
