@@ -88,3 +88,6 @@
 
 ## [Sprint 2] - Ejercicio 05
 - Métricas del dataset final calculadas.
+
+## [Sprint 2] - Ejercicio 06
+- Reflexión sobre datos e imágenes redactada en Readme.md.
