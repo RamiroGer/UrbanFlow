@@ -85,3 +85,6 @@
 - Extracción de patentes con EasyOCR implementada.
 - Matching con dataset de multas (umbral 80%).
 - Dataset final guardado en processed/.
+
+## [Sprint 2] - Ejercicio 05
+- Métricas del dataset final calculadas.
