@@ -75,3 +75,8 @@
 - Clasificación en grupos 'plates' y 'completes'.
 - group_images.json generado y almacenado.
 - Función de visualización aleatoria implementada.
+
+## [Sprint 2] - Ejercicio 03
+- Conversión a escala de grises implementada.
+- Suavizado gaussiano aplicado.
+- Detección de bordes Canny aplicada.
