@@ -80,3 +80,8 @@
 - Conversión a escala de grises implementada.
 - Suavizado gaussiano aplicado.
 - Detección de bordes Canny aplicada.
+
+## [Sprint 2] - Ejercicio 04
+- Extracción de patentes con EasyOCR implementada.
+- Matching con dataset de multas (umbral 80%).
+- Dataset final guardado en processed/.
