@@ -91,3 +91,6 @@
 
 ## [Sprint 2] - Ejercicio 06
 - Reflexión sobre datos e imágenes redactada en Readme.md.
+
+## [Sprint 2] - Ejercicio 06 (actualización)
+- Reflexión ampliada con datos reales y decisión de diseño.

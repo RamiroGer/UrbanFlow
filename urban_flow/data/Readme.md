@@ -46,3 +46,69 @@ ya que representa infracciones con evidencia visual válida y deuda
 pendiente de cobro. Este cruce entre datos tabulares e imágenes
 demuestra el valor del procesamiento multimodal en sistemas de
 control urbano.
+
+## Reflexión — Sprint 2
+
+El presente sprint tuvo como objetivo vincular el dataset de multas
+por exceso de velocidad procesado en el Sprint 1 con el dataset de
+imágenes capturadas por los radares urbanos de Vaalserberg.
+
+### Sobre los datos explorados
+
+El dataset de multas contaba con 1274 registros limpios (reducidos
+desde 1713 originales tras el proceso de limpieza del Sprint 1), con
+información de patentes, velocidades, fechas y estado de pago
+(PAGADA, IMPAGA, APELADA, ERROR). Se identificaron 66 patentes
+únicas, con una frecuencia de entre 15 y 38 multas por patente.
+El dataset de imágenes contenía 106 archivos .jpg divididos en:
+
+- plates: 87 recortes directos de la zona de la patente.
+- completes: 19 fotografías completas del vehículo infractor.
+
+### Sobre el proceso de vinculación
+
+Para extraer las patentes de las imágenes se utilizó EasyOCR con
+soporte para español, logrando detectar texto en 105 de las 106
+imágenes. Dado que el OCR introduce ruido en la lectura (espacios,
+corchetes, caracteres especiales), se implementó una función de
+limpieza que normaliza el texto eliminando todo carácter no
+alfanumérico antes de realizar la comparación.
+
+El criterio de coincidencia utilizado fue una comparación carácter a
+carácter de izquierda a derecha con un umbral mínimo del 80%, lo que
+permitió tolerar errores puntuales sin aceptar coincidencias débiles.
+
+### Decisión de diseño: asignación múltiple por patente
+
+Durante el desarrollo se tomó la decisión de asignar la imagen
+matcheada a todas las filas del dataset que compartan la misma
+patente, en lugar de asignarla a una sola multa.
+
+Esta decisión se fundamenta en que el dataset contiene múltiples
+multas por el mismo vehículo. Si una imagen valida visualmente una
+patente, esa evidencia es válida para todas las infracciones de ese
+vehículo. Ignorar las demás filas implicaría descartar evidencia
+válida sin justificación.
+
+El resultado fue pasar de 25 coincidencias (asignación única) a 491
+coincidencias (asignación múltiple), lo cual refleja con mayor
+fidelidad la realidad del sistema de radares.
+
+### Resultados y limitaciones
+
+De los 106 archivos procesados, 78 imágenes no tuvieron match con
+ninguna patente del dataset. Las principales limitaciones fueron:
+
+- Confusión entre caracteres visualmente similares (O/0, I/1, B/8).
+- Imágenes completes con baja resolución en la zona de la patente.
+- 783 multas sin imagen asociada, lo que indica que el sistema de
+  cámaras no tiene cobertura total de las infracciones registradas.
+
+### Valor del cruce de datos
+
+El subconjunto más relevante para una acción administrativa inmediata
+es el de las 152 multas con estado IMPAGA que cuentan con imagen
+asociada, ya que representan infracciones con evidencia visual válida
+y deuda pendiente de cobro. Este cruce entre datos tabulares e
+imágenes demuestra el valor del procesamiento multimodal en sistemas
+de control urbano.
