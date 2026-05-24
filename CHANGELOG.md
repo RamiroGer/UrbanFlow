@@ -94,3 +94,8 @@
 
 ## [Sprint 2] - Ejercicio 06 (actualización)
 - Reflexión ampliada con datos reales y decisión de diseño.
+
+## [Sprint 2] - Ejercicio 01
+- Configuración rama Sprint_2 desde Sprint_1.
+- Estructura de directorios para Sprint 2 creada.
+- Dataset de imágenes descargado y descomprimido.
