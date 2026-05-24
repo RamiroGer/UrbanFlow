@@ -99,3 +99,9 @@
 - Configuración rama Sprint_2 desde Sprint_1.
 - Estructura de directorios para Sprint 2 creada.
 - Dataset de imágenes descargado y descomprimido.
+
+## [Sprint 2] - Ejercicio 02
+- Listado de imágenes con tamaño en KB.
+- Clasificación en grupos 'plates' y 'completes'.
+- group_images.json generado y almacenado.
+- Función de visualización aleatoria implementada.
