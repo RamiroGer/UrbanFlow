@@ -118,3 +118,6 @@
 
 ## [Sprint 2] - Ejercicio 05
 - Métricas del dataset final calculadas.
+
+## [Sprint 2] - Ejercicio 06 (actualización)
+- Reflexión ampliada con datos reales y decisión de diseño.
