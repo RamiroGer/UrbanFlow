@@ -121,3 +121,7 @@
 
 ## [Sprint 2] - Ejercicio 06 (actualización)
 - Reflexión ampliada con datos reales y decisión de diseño.
+
+## [Sprint 3] - Ejercicio 01
+- Rama Sprint_3 creada desde Sprint_2.
+- Acceso a datasets verificado.
