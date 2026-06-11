@@ -136,3 +136,6 @@
 
 ## [Sprint 3] - Ejercicio 04
 - Función procesar_fila_csv implementada.
+
+## [Sprint 3] - Ejercicio 05
+- Modelos relacionales SQLAlchemy definidos.
