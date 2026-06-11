@@ -145,3 +145,6 @@
 
 ## [Sprint 3] - Ejercicio 07
 - Consultas SQL implementadas sobre la BD.
+
+## [Sprint 3] - Ejercicio 08
+- Base vectorial ChromaDB poblada con OpenCLIP.
