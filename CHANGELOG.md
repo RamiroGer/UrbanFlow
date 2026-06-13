@@ -178,3 +178,6 @@
 
 ## [Sprint 3] - Ejercicio 05
 - Modelos relacionales SQLAlchemy definidos.
+
+## [Sprint 3] - Ejercicio 06
+- Base de datos transito.db creada, poblada y versionada con DVC.
