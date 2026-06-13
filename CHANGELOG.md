@@ -164,3 +164,8 @@
 ## [Sprint 3] - Ejercicio 01
 - Rama Sprint_3 creada desde Sprint_2.
 - Acceso a datasets verificado.
+
+## [Sprint 3] - Ejercicio 02
+- Directorio remote_dvc creado.
+- Imágenes migradas a DVC.
+- CSV procesado migrado a DVC.
