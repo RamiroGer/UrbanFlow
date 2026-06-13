@@ -187,3 +187,6 @@
 
 ## [Sprint 3] - Ejercicio 08
 - Base vectorial ChromaDB poblada con OpenCLIP.
+
+## [Sprint 3] - Ejercicio 09
+- Función buscar_patente_imagen implementada.
