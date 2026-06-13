@@ -169,3 +169,6 @@
 - Directorio remote_dvc creado.
 - Imágenes migradas a DVC.
 - CSV procesado migrado a DVC.
+
+## [Sprint 3] - Ejercicio 03
+- Modelo lógico definido: Vehiculo, Radar, Evidencia, Multa.
