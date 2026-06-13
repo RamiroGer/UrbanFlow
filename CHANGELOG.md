@@ -151,3 +151,6 @@
 
 ## [Sprint 3] - Ejercicio 09
 - Función buscar_patente_imagen implementada.
+
+## [Sprint 3] - Ejercicio 10
+- Conclusión redactada en Readme.md.
