@@ -160,3 +160,7 @@
 
 ## [Sprint 3] - Ejercicio 06
 - Base de datos transito.db creada, poblada y versionada con DVC.
+
+## [Sprint 3] - Ejercicio 01
+- Rama Sprint_3 creada desde Sprint_2.
+- Acceso a datasets verificado.
