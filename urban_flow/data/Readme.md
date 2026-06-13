@@ -214,3 +214,39 @@ una base vectorial (búsqueda por similitud) representa un sistema
 robusto y escalable para la gestión de infracciones de tránsito,
 con capacidad de responder tanto preguntas analíticas como búsquedas
 visuales aproximadas.
+
+## Conclusión — Sprint 3
+
+En este sprint se profesionalizó la solución del sistema de radares
+urbanos de Vaalserberg incorporando persistencia real en base de datos.
+
+### Sobre la migración a base de datos relacional
+
+Los datos procesados en los sprints anteriores fueron migrados desde
+archivos CSV a una base de datos SQLite estructurada mediante el ORM
+de SQLAlchemy. El modelo relacional diseñado contempla cuatro
+entidades: Vehiculo, Radar, Multa y Evidencia, respetando las
+relaciones de uno a muchos y la opcionalidad de la evidencia visual.
+
+### Sobre el versionado de datos con DVC
+
+Los archivos binarios (imágenes y CSV procesado) fueron migrados de
+git a DVC, lo cual es la práctica correcta para archivos de gran
+tamaño o que cambian frecuentemente. Git queda reservado para el
+código y la metadata, mientras que DVC gestiona los datos.
+
+### Sobre la base de datos vectorial
+
+Se incorporó ChromaDB con el modelo OpenCLIP para almacenar
+representaciones vectoriales de las imágenes de patentes. Esto
+permite buscar vehículos por similitud visual, sin depender de OCR,
+lo que complementa y fortalece el sistema de identificación del
+sprint anterior.
+
+### Valor del sistema integrado
+
+La combinación de una base relacional (consultas estructuradas) con
+una base vectorial (búsqueda por similitud) representa un sistema
+robusto y escalable para la gestión de infracciones de tránsito,
+con capacidad de responder tanto preguntas analíticas como búsquedas
+visuales aproximadas.
