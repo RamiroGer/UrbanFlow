@@ -214,3 +214,6 @@
 
 ## [Sprint 3] - Ejercicio 06
 - Base de datos transito.db creada, poblada y versionada con DVC.
+
+## [Sprint 3] - Ejercicio 07
+- Consultas SQL implementadas sobre la BD.
