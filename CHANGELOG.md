@@ -226,3 +226,6 @@
 
 ## [Sprint 3] - Ejercicio 10
 - Conclusión redactada en Readme.md.
+
+## [Sprint 3] - Ejercicio 06
+- Base de datos transito.db creada, poblada y versionada con DVC.
