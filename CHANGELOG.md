@@ -205,3 +205,6 @@
 
 ## [Sprint 3] - Ejercicio 03
 - Modelo lógico definido: Vehiculo, Radar, Evidencia, Multa.
+
+## [Sprint 3] - Ejercicio 04
+- Función procesar_fila_csv implementada.
